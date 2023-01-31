@@ -1,0 +1,36 @@
+body, .side-menu, #search {
+    display:flex;
+    flex-direction:column;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+    background-color: #001a8d;
+    background-image: linear-gradient(to right, #00d3a9, #001a8d, #001a8d);
+    color: white;
+    
+}
+
+main {
+    display:flex;
+    flex-direction:row;
+}
+
+h1, h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h1 {
+    font-family: verdana, sans-serif;
+    font-weight: normal;
+}
+.side-menu {
+    
+    padding: 10px 20px;
+} 
+
+.weather-dashboard {
+    padding: 10px 20px;
+}
