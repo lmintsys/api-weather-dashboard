@@ -12,6 +12,7 @@ n/a
 ## Usage
 
 When the user opens the application, they will see an input field where they can type in the city they would like to check the weather in. Once they click on the search button, they will see the current weather in the requested city, including temperature, wind speed, humidity, as well as an icon demonstrating the weather conditions. In addition, the user will see the same info for the next 5 days. Once clicked on the search button, every search input will be saved on a separate button and by clicking on it the user will be able to see the weather results for that city.
+https://lmintsys.github.io/api-weather-dashboard/
 ![weather](assets/screenshot.jpg)
 
 ## Credits
