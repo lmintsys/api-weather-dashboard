@@ -19,19 +19,68 @@
         <div id="search">
           <h3>Search for a City:</h3>
           <input name="city" id="city" type="text" />
-          <button type="submit" class="btn">Search</button>
+          <button type="submit" class="btn" id="search-btn">Search</button>
         </div>
 
         <div id="search-history"></div>
       </div>
 
       <div class="weather-dashboard">
-        <div id="current-weather"></div>
-
+        <div id="current-weather">
+          <h3 id="city-name"></h3>
+          <img id="wicon" src="" alt="Weather icon" />
+          <p id="temperature"></p>
+          <p id="wind"></p>
+          <p id="humidity"></p>
+        </div>
         <div id="five-day-forecast">
-          <h3>5-Day Forecast:</h3>
+          <h3 id="forecast-title">5-Day Forecast:</h3>
+          <div id="forecast-container">
+            <div class="day-card" id="day1">
+              <p class="card-date" id="day1date"></p>
+              <img id="day1wicon" src="" alt="Day 1 weather icon" />
+              <p id="day1temp"></p>
+              <p id="day1wind"></p>
+              <p id="day1humidity"></p>
+            </div>
+            <div class="day-card" id="day-2">
+              <p class="card-date" id="day2date"></p>
+              <img id="day2wicon" src="" alt="Day 2 weather icon" />
+              <p id="day2temp"></p>
+              <p id="day2wind"></p>
+              <p id="day2humidity"></p>
+            </div>
+            <div class="day-card" id="day-3">
+              <p class="card-date" id="day3date"></p>
+              <img id="day3wicon" src="" alt="Day 3 weather icon" />
+              <p id="day3temp"></p>
+              <p id="day3wind"></p>
+              <p id="day3humidity"></p>
+            </div>
+            <div class="day-card" id="day-4">
+              <p class="card-date" id="day4date"></p>
+              <img id="day4wicon" src="" alt="Day 4 weather icon" />
+              <p id="day4temp"></p>
+              <p id="day4wind"></p>
+              <p id="day4humidity"></p>
+            </div>
+            <div class="day-card" id="day-5">
+              <p class="card-date" id="day5date"></p>
+              <img id="day5wicon" src="" alt="Day 5 weather icon" />
+              <p id="day5temp"></p>
+              <p id="day5wind"></p>
+              <p id="day5humidity"></p>
+            </div>
+          </div>
         </div>
       </div>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
   </body>
 </html>

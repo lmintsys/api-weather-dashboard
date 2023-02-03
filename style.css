@@ -26,6 +26,11 @@ h1 {
     font-family: verdana, sans-serif;
     font-weight: normal;
 }
+
+h3 {
+    font-size: 1.5em;
+}
+
 .side-menu {
     
     padding: 10px 20px;
@@ -33,4 +38,47 @@ h1 {
 
 .weather-dashboard {
     padding: 10px 20px;
+    width: 70%
+}
+
+.day-card {
+    border: 2px solid black;
+    width: 15%   
+}
+.day-card {
+    background-color: #32428a;
+    color: white;
+    padding: 10px;
+}
+.card-date {
+    font-size: 1.5em;
+}
+
+#forecast-title {
+    padding-bottom: 10px ;
+}
+
+#search-history {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#current-weather {
+    display: none;
+    border: black 2px solid;
+    margin-bottom: 20px;
+}
+
+#five-day-forecast {
+    display: none;
+}
+
+#wicon {
+    display: inline;
+}
+
+#forecast-container {
+    display: flex;
+    justify-content: space-between;
 }
